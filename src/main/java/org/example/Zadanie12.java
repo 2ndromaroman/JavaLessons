@@ -9,7 +9,8 @@ public class Zadanie12 {
         System.out.println(b = stroka.startsWith("I like"));
         System.out.println(c = stroka.endsWith("!!!"));
         if (a == true && b == true && c == true){
-            System.out.println(stroka.replaceAll("a", "o"));
+            String d = stroka.replaceAll("a", "o");
+            System.out.println(d.substring(7));
         }
 
     }
