@@ -19,7 +19,7 @@ public class Itogovaya3 {
         }
         int[] count = new int[n];
         for (int i = 0; i < str.length; i++) {
-            for (int j = i; j < str[i].length(); j++) {
+            for (int j = 0; j < str[i].length(); j++) {
                 char temp = ' ';
                 for (int z = j; z < str[i].length(); z++) {
                     if (str[i].charAt(j) != str[i].charAt(z) && temp != str[i].charAt(z)) {
